@@ -1,0 +1,123 @@
+@import 'htttps://fonts.googleapis.com/css?family=Oswald:400,700';
+@import 'htttps://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'htttps://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+header{
+	margin: 0;
+	background:black;
+	color:white;
+	padding: 8px 0px 6px 40px;
+	height: 50px;
+}
+header h1 {
+	display: inline;
+	font-family:  'oswald', sans-serif;
+	font-weight: 400;
+	font-size:34px;
+	float-left;
+	margin-top:0px;
+	margin-right:10px;
+
+}
+nav ul {
+	display:inline;
+	padding: 0px;
+
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	margin-left:12px;
+
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+
+}
+#nav{
+	font-family: 'Montserrat',sans-serif;
+}
+.homered{
+       background-color: red;  
+       padding: 20px 6px 22px 6px;
+
+
+}
+.divider{
+	background-color: red;
+	height: 5px;
+}
+.homeblack:hover{
+    background-color: blue;
+}
+
+.image {
+	background-image: url("images/java oracle code.png");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding-bottom: 60px;
+	}
+.homesub{
+	font-family: 'Raleway',sans-serif;
+	margin: 0;
+	padding:  28% 5% 0% 0%;
+	font-size: 18px;
+	color: black;
+}
+.homedes {
+	font-family:  'Raleway',sans-serif;
+	margin: 0.5% 0% 0% 0%;
+	font-size: 18px;
+	color: yellow;
+	background-color: rgba(0,0,0,0.4);
+	display: inline-block;
+
+}
+.homebutten{
+	margin: 5% 0% 0% 30%;
+	background-color: yellow;
+	border: none;
+	height: 50px;
+	font-size: 1.4em;
+	padding: 0 1em;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway',sans-serif;
+	font-weight: 900;
+}
+.divider2{
+	background-color: red;
+	height: 5px;
+	margin: 5px;
+}
+.divider3{
+	background-color:gray;
+    color:black;
+	margin:0px; 
+	padding: 20px 40px 30px 40px;
+	color: black;
+	font-size: 40px;
+	height: 15px;
+}
+.divider4{
+	background-image: url("images/website-design-background-1.jpg");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+
+}
+.about{
+	font-family: 'Gamja Flower', cursive;
+	margin: 0;
+	padding-top: 50px;
+	font-size: 30px;
+	color: white;
+}
